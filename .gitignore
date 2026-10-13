@@ -1,0 +1,28 @@
+# Dependencies and generated output
+node_modules/
+public/
+.deploy*/
+db.json
+
+# Local and editor files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+*.swp
+.cache/
+
+# Local-only Hexo configuration
+_multiconfig.yml
+
+# Secrets and local package credentials
+.env
+.env.*
+!.env.example
+.npmrc
+.secrets/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
